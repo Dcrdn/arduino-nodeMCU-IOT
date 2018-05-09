@@ -6,11 +6,11 @@
 #define dht_dpin 2
 DHT dht(dht_dpin, DHTTYPE); 
 
-#define WIFI_SSID "INFINITUM193E79"
-#define WIFI_PASSWORD "FA9B79DF0F"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
-#define FIREBASE_HOST "ejemploarduino-64e24.firebaseio.com" //ya lo debemos tener guardado
-#define FIREBASE_AUTH "wmyOka6X9OGqoOAZ7KDoL7VLHXKwSPpYpoYwefCO" //que previamente ya habíamos guardado
+#define FIREBASE_HOST "" //ya lo debemos tener guardado
+#define FIREBASE_AUTH "" //que previamente ya habíamos guardado
 
 int Red_LED = 14; //pin d8
 #define turn_On 0

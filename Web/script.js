@@ -2,12 +2,12 @@
 //The project has been deleted in firebase
 //fill in your own config info 
 var config = {
-  apiKey: "AIzaSyCvaF8XIzgYIs1o-iLHIf1UWVnAttA1Z6E",
-  authDomain: "ejemploarduino-64e24.firebaseapp.com",
-  databaseURL: "https://ejemploarduino-64e24.firebaseio.com",
-  projectId: "ejemploarduino-64e24",
-  storageBucket: "ejemploarduino-64e24.appspot.com",
-  messagingSenderId: "1088871159027"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 firebase.initializeApp(config);
 
