@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  background-color: #2E4053;
+}
+
+.ans{
+  margin-top: 1%;
+  color: black;
+  font-family: Verdana;
+}
+.info{
+  margin-top: 3%;
+  color: white;
+  font-family: Verdana;
+}
+.lightStatus{
+  margin-top: 3%;
+  color: white;
+  font-family: Verdana;
+}
+
+.lightButton{
+  font-size: 1.5em;
+  font-family: Verdana;
+  padding: 10px;
+}
