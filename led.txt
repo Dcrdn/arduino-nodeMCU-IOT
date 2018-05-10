@@ -1,9 +1,34 @@
-int led = 14; //es el pin D8
+#include <FirebaseArduino.h>
+#include <ESP8266WiFi.h>
 
-void setup() { 
-pinMode(led, OUTPUT); 
+#define FIREBASE_HOST "fir-app-example.firebaseio.com"
+
+#define FIREBASE_AUTH ""
+
+#define WIFI_SSID "nombre del router"
+
+#define WIFI_PASSWORD "contraseña"
+
+#define LED 8  //el puerto numero d8 de nuestro nodemcu
+
+void setup() {
+
+pinMode(LED,OUTPUT);
+
+digitalWrite(LED,0);
+
+Serial.begin(9600);
+
+WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+
+Serial.print("connecting");
+
+while (WiFi.status() != WL_CONNECTED) {
+
+Serial.print(".");
+
+delay(500);
+
 }
 
-void loop() { 
-digitalWrite(led, HIGH); 
-}
+Serial.println();
