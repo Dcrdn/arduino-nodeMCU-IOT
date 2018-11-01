@@ -14,3 +14,6 @@ http://www.instructables.com/id/Interface-DHT11-Humidity-Sensor-Using-NodeMCU/
 http://www.instructables.com/id/Firebase-Integrate-With-ESP8266/
 https://github.com/firebase/firebase-arduino
 https://www.arduino.cc/en/Guide/Libraries
+
+
+IN PROGRESS
