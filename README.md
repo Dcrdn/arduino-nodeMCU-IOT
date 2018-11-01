@@ -6,7 +6,7 @@ Información del setup se puede encontrar en:
 
 https://docs.google.com/document/d/1uxMxu-71D0KHFHxoxN-UD1CZUUgWDB2A3BzJcitK_dU/edit?usp=sharing
 
-
+jejeje
 
 Referencias:
 http://www.instructables.com/id/Arduino-Blinking-LED/
